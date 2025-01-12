@@ -42,5 +42,5 @@ CREATE TABLE logs (
     created_at DATETIME NOT NULL,
     date_only DATE NOT NULL
 );
-
+```
 3. 启动网站
