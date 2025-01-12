@@ -43,4 +43,34 @@ CREATE TABLE logs (
     date_only DATE NOT NULL
 );
 ```
-3. 启动网站
+3. 伪静态设置
+   
+```
+location ~ ^/d/([0-9]+)$ {
+    rewrite ^/d/([0-9]+)$ /d/index.php?data_id=$1 last;
+}
+
+location ~ ^/download$ {
+    rewrite ^/download$ /download.php last;
+}
+
+location ~ ^/zuixin {
+    rewrite ^/zuixin /index_data/zuixin.php last;
+}
+
+location ~ ^/remen {
+    rewrite ^/remen /index_data/remen.php last;
+}
+location ~ ^/download_new {
+    rewrite ^/download_new /index_data/download_new.php last;
+}
+
+location ~ ^/disclaimer {
+    rewrite ^/disclaimer /disclaimer.php last;
+}
+```
+
+4. 启动网站
+
+如有疑问请联系夏柔QQ：15001904
+项目仅供学习测试交流，请在24h小时内删除源文件
