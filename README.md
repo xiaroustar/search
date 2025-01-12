@@ -31,16 +31,16 @@
 
 ### 安装步骤
 
-1. 创建数据库，将数据库配置信息配置到config.php
-2. sql创建语句
+1. 创建数据库，将数据库配置信息配置到 `config.php`
+2. 执行以下 SQL 创建语句
 
+```sql
 CREATE TABLE logs (
-    id INT AUTO_INCREMENT PRIMARY KEY,     -- 自增 ID
-    ip_address VARCHAR(45) NOT NULL,        -- IP 地址
-    post_id INT NOT NULL,               -- 资源ID
-    created_at DATETIME NOT NULL,           -- 时间（y-m-d H:i:s）
-    date_only DATE NOT NULL                 -- 时间（y-m-d）
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip_address VARCHAR(45) NOT NULL,
+    post_id INT NOT NULL,
+    created_at DATETIME NOT NULL,
+    date_only DATE NOT NULL
 );
 
-3. 启动网站即可
-
+3. 启动网站
