@@ -86,7 +86,6 @@ if ($search_value == null) {
 function aes256_encrypt($data, $key) {$iv = openssl_random_pseudo_bytes(16);	$encrypted = openssl_encrypt($data, 'AES-256-CBC', $key, 0, $iv);	return base64_encode($encrypted . '::' . $iv);}$encrypted_value = aes256_encrypt($search_value, $key);
 
 ?>
-e
 <!DOCTYPE html>
 <html class="theme-day" lang="zh-CN">
     <head class="xiarou-ziyuansou">
