@@ -3,14 +3,15 @@
  * 项目：资源搜 - 最简单的源码资源搜索引擎
  * 描述：完全免费的源码资源搜索引擎
  * 作者：夏柔
- * 作者官网：www.aa1.cn
- * 发布时间：2025年1月12日
+ * 发布时间：2025年1月13日
  * 源码官网：https://ym.aa1.cn
+ * 源码下载：https://github.com/xiaroustar/search
  * 修改记录：
  *   发布v1.0版本 2w+资源 无需手动发布
  *
  * 项目无后台 纯API实现 如需本地版可联系夏柔 （若无其他需求无需本地 若项目停止运营将会提供备用方案）
  */
+
 
 include('config.php');
 
@@ -185,26 +186,26 @@ $date = date("Y-m-d");
         
         <meta class="xiarou-ziyuansou" name="keywords" content="<?php echo $post_title;?>,网盘全文检索,源码站搜索,免费源码,全网盘类源码,阿里盘搜,云搜,网盘搜索,百度网盘搜索,百度云搜索,阿里云盘搜索,夸克云盘搜索,百度云盘,迅雷云盘,天翼云盘,蓝奏云盘,网盘搜索引擎,网盘搜索神器,网盘资源搜索,资源搜索,资源分享,云盘资源搜索,阿里云盘资源搜索,迅雷云盘搜索">
         <meta class="xiarou-ziyuansou" name="description" content="资源搜是一款最简单的源码资源搜索引擎，页面清爽，资源全面，支持阿里云盘百度云盘阿里云盘等夸克网盘资源搜索。只需输入关键词，即可快速找到相关网盘资源！">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/entry.BMP3qFZ0.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/default.B5z-pQNO.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/FooterStyle2.D4Mv1PiJ.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/Icon.Dan13sfw.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/website.D_-tiCWj.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/Pendant.y4AbnFSO.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/_id_.BFC8vAVk.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/Notice.O1KhRlGv.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/FireSvg.DYove8g3.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/Aside.D6M1Oiat.css">
-        <link class="xiarou-ziyuansou" rel="stylesheet" href="../d-assets/assets/SaveSuc.CD2marx0.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/entry.BMP3qFZ0.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/default.B5z-pQNO.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/FooterStyle2.D4Mv1PiJ.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/Icon.Dan13sfw.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/website.D_-tiCWj.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/Pendant.y4AbnFSO.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/_id_.BFC8vAVk.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/Notice.O1KhRlGv.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/FireSvg.DYove8g3.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/Aside.D6M1Oiat.css">
+        <link class="xiarou-ziyuansou" rel="stylesheet" href="../assets/SaveSuc.CD2marx0.css">
         
         <style type="text/css">
             .medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity
             .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform
             .3s cubic-bezier(.2,0,.2,1)!important}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}
         </style>
-        <link href="../d-assets/assets/atom-one-dark.min.css" rel="stylesheet"
+        <link href="../assets/atom-one-dark.min.css" rel="stylesheet"
         id="md-editor-hlCss">
-        <link rel="stylesheet" href="../d-assets/assets/katex.min.css"
+        <link rel="stylesheet" href="../assets/katex.min.css"
         id="md-editor-katexCss">
         <input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="7">
         
