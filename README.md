@@ -58,8 +58,8 @@ location ~ ^/zuixin {
     rewrite ^/zuixin /index_data/zuixin.php last;
 }
 
-location ~ ^/remen {
-    rewrite ^/remen /index_data/remen.php last;
+location ~ ^/new {
+    rewrite ^/new /index_data/remen.php last;
 }
 location ~ ^/download_new {
     rewrite ^/download_new /index_data/download_new.php last;
